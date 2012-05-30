@@ -1,5 +1,5 @@
 bindkey ^Aa other
-caption always "%{dk}%{+b K}> %{W}%n %t %{K}<%{W}%=%{+b K}load{%l} %{C}$USER@%{W}%H %{db}%{W}  %0C %A  "
+caption always "%{dk}%{+b K}> %{W}%n %t %{K}<%{W}%=%{+b K}load{%l} %{C}$USER@%{W}%H %{db}%{w}  %0C  "
 #defbce "on"
 #defc1 "off"
 defscrollback 2000
