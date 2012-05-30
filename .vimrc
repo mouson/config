@@ -10,7 +10,7 @@ set ignorecase
 set incsearch
 set laststatus=2
 set list
-set listchars=tab:»\ ,trail:-,eol:$
+set listchars=tab:»\ ,trail:⌐,eol:▫
 set nobomb
 set nocompatible
 set number
