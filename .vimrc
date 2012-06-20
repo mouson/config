@@ -25,6 +25,7 @@ set t_Co=256
 set tabstop=4
 set visualbell
 set wildmenu
+set mouse=a
 syntax on
 
 " color schema
@@ -33,3 +34,4 @@ let g:solarized_termcolors=256
 colo solarized
 highlight Search cterm=none ctermbg=blue
 
+call pathogen#infect()
