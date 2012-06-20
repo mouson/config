@@ -25,7 +25,7 @@ set t_Co=256
 set tabstop=4
 set visualbell
 set wildmenu
-set mouse=a
+" set mouse=a
 syntax on
 
 " color schema
