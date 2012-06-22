@@ -13,5 +13,6 @@
 [merge]
     tool = vimdiff
 [user]
-    email = darkkiller@gmail.com
-    name = Gea-Suan Lin
+        name = CornGuo
+        email = cornguo@kkbox.com
+
