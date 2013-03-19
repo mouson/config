@@ -49,6 +49,7 @@ alias g         grep
 alias p         ping
 alias less      "/usr/bin/less -EmrSw"
 alias telnet    "telnet -8"
+alias tmux      "tmux -2"
 setenv  EDITOR  vim
 setenv  PAGER   more
 setenv  BLOCKSIZE       K
