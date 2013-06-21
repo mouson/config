@@ -29,7 +29,7 @@ alias cp        cp -i
 alias mv        mv -i
 alias ren       mv
 alias move      mv
-alias vi	vim
+alias vi        vim
 
 alias wh        "whois -h whois.twnic.net.tw"
 alias wha       "whois -h whois.apnic.net"
@@ -48,6 +48,7 @@ alias n         nslookup
 alias g         grep
 alias p         ping
 alias less      "/usr/bin/less -EmrSw"
+alias more      most
 alias telnet    "telnet -8"
 alias tmux      "tmux -2"
 setenv  EDITOR  vim
@@ -93,6 +94,6 @@ set nobeep
 set dspmbyte="0000000000000000000000000000000000000000000000000000000000000000222222222222222222222222222222222222222222222222222222222222222223333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333330"
 
 if (-e ~/.login.txt && ${TERM} != 'su') then
-    cat ~/.login.txt
+    cat .login.txt
 endif
 
