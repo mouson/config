@@ -1,2 +1,2 @@
 #
-source ${HOME}/.bashrc
+source ${HOME}/.cshrc
