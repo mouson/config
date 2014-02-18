@@ -22,6 +22,7 @@ alias psu="ps -U"
 alias s="screen"
 alias ssh="ssh -4 -C -e none -v"
 alias t="telnet"
+alias vi="vim"
 #
 export BLOCKSIZE="k"
 export EDITOR="vim"
