@@ -34,4 +34,11 @@ let g:solarized_termcolors=256
 colo solarized
 highlight Search cterm=none ctermbg=blue
 
+if has("autocmd")
+
+  " Remove any trailing whitespace that is in the file
+  autocmd BufWrite * if ! &bin | :call setline(1,map(getline(1,"$"),'substitute(v:val,"\\s\\+$","","")')) | endif
+
+endif " has("autocmd")
+
 call pathogen#infect()
