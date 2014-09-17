@@ -6,7 +6,7 @@ set fileencoding=utf8
 set fileencodings=ucs-bom,utf8,cp950,latin1
 set guifont=Inconsolata:h12
 set hlsearch
-set ignorecase
+set noignorecase
 set incsearch
 set laststatus=2
 set list
